@@ -1,8 +1,8 @@
 # nginx_AlpineLinux 
 
-Docker container image which automates the installation and basic configuration of nginx, and it is based on the official Docker alpine:latest image.
+Docker container image which automates the installation and basic configuration of nginx and uses curl to check whether the nginx server is working. This container image is based on the official Docker alpine:latest image.
 
-## Breaking down the tasks the image does perform.
+## Breaking down what the container does
 
 a. Fetch from apk repos and check if an update is available;<br />
 b. Install nginx and curl;<br />
